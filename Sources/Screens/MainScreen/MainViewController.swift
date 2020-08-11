@@ -64,6 +64,10 @@ class MainViewController: UIViewController {
             }
         }
     }
+    @IBAction func manageScreenRec(_ sender: Any) {
+        
+        navigationController?.pushViewController(IntermediateViewController(), animated: true)
+    }
     
     private var speakerOn: Bool = false {
         didSet {

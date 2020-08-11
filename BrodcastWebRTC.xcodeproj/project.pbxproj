@@ -10,7 +10,7 @@
 		2F7EBC3622DCC6430015B46E /* WebSocketProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EBC3522DCC6430015B46E /* WebSocketProvider.swift */; };
 		2F7EBC3822DCCB4E0015B46E /* StarscreamProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EBC3722DCCB4E0015B46E /* StarscreamProvider.swift */; };
 		2F7EBC3A22DCCE240015B46E /* NativeWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EBC3922DCCE240015B46E /* NativeWebSocket.swift */; };
-		2FB029162335104700795F4B /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 2FB029152335104700795F4B /* SwiftPackageProductDependency */; };
+		2FB029162335104700795F4B /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 2FB029152335104700795F4B /* Starscream */; };
 		79177C9720B0DE7A00BCD399 /* WebRTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79177C9620B0DE7A00BCD399 /* WebRTCClient.swift */; };
 		79177C9920B0DF2700BCD399 /* SignalingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79177C9820B0DF2700BCD399 /* SignalingClient.swift */; };
 		79177CA620B1F76E00BCD399 /* RTCStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79177CA520B1F76E00BCD399 /* RTCStates.swift */; };
@@ -25,10 +25,14 @@
 		795A4A2A221E0FB100F8BB03 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795A4A29221E0FB100F8BB03 /* Message.swift */; };
 		798FBA472200F681009F525E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 798FBA462200F681009F525E /* MainViewController.xib */; };
 		798FBA492200F9A9009F525E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798FBA482200F9A9009F525E /* LaunchScreen.storyboard */; };
-		9BDC4FE924E1797F00DE4541 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		9BDC4FEA24E1798300DE4541 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		9BDC4FEB24E1798600DE4541 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		9BDC4FEC24E1798A00DE4541 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		9B24B84C24E2E644007A82F3 /* BroadcastSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B24B84724E2E644007A82F3 /* BroadcastSetupViewController.swift */; };
+		9B24B84E24E2E644007A82F3 /* SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B24B84A24E2E644007A82F3 /* SampleHandler.swift */; };
+		9B24B85324E2E71E007A82F3 /* IntermediateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B24B85124E2E71E007A82F3 /* IntermediateViewController.xib */; };
+		9B24B85424E2E71E007A82F3 /* IntermediateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B24B85224E2E71E007A82F3 /* IntermediateViewController.swift */; };
+		9BDC4FE924E1797F00DE4541 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		9BDC4FEA24E1798300DE4541 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		9BDC4FEB24E1798600DE4541 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		9BDC4FEC24E1798A00DE4541 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		B00D3AFB29C22B64BD0FD267 /* libPods-BrodcastWebRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C7328EF3DA4251034D76ED /* libPods-BrodcastWebRTC.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +58,12 @@
 		798FBA462200F681009F525E /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		798FBA482200F9A9009F525E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D3596A512590443C9885517 /* Pods-BrodcastWebRTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrodcastWebRTC.debug.xcconfig"; path = "Target Support Files/Pods-BrodcastWebRTC/Pods-BrodcastWebRTC.debug.xcconfig"; sourceTree = "<group>"; };
+		9B24B84724E2E644007A82F3 /* BroadcastSetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BroadcastSetupViewController.swift; sourceTree = "<group>"; };
+		9B24B84824E2E644007A82F3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B24B84A24E2E644007A82F3 /* SampleHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleHandler.swift; sourceTree = "<group>"; };
+		9B24B84B24E2E644007A82F3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B24B85124E2E71E007A82F3 /* IntermediateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntermediateViewController.xib; sourceTree = "<group>"; };
+		9B24B85224E2E71E007A82F3 /* IntermediateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntermediateViewController.swift; sourceTree = "<group>"; };
 		A08E026CE91F0D05E2FAA802 /* Pods-BrodcastWebRTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrodcastWebRTC.release.xcconfig"; path = "Target Support Files/Pods-BrodcastWebRTC/Pods-BrodcastWebRTC.release.xcconfig"; sourceTree = "<group>"; };
 		D6C7328EF3DA4251034D76ED /* libPods-BrodcastWebRTC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrodcastWebRTC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA88FA0C4FBE97B2FFAB50B /* Pods-WebRTC-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebRTC-Demo.release.xcconfig"; path = "Target Support Files/Pods-WebRTC-Demo/Pods-WebRTC-Demo.release.xcconfig"; sourceTree = "<group>"; };
@@ -64,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FB029162335104700795F4B /* BuildFile in Frameworks */,
+				2FB029162335104700795F4B /* Starscream in Frameworks */,
 				B00D3AFB29C22B64BD0FD267 /* libPods-BrodcastWebRTC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,6 +144,8 @@
 				79177C9B20B0E84600BCD399 /* Resources */,
 				79177C9A20B0E82B00BCD399 /* SupportingFiles */,
 				79262EE420B0D6F600D576C1 /* Products */,
+				9B24B84924E2E644007A82F3 /* BExtensionUpload */,
+				9B24B84624E2E644007A82F3 /* BExtensionUploadSetupUI */,
 				875FA2433082AF2D1A3394B5 /* Pods */,
 				A8E6E893B8D406E1C8F10B93 /* Frameworks */,
 			);
@@ -162,6 +174,7 @@
 		798FBA442200F510009F525E /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				9B24B85024E2E703007A82F3 /* ScreenRec */,
 				7921989F220107C90051F03F /* MainScreen */,
 				792198A0220107E30051F03F /* VideoScreen */,
 			);
@@ -188,6 +201,33 @@
 				A08E026CE91F0D05E2FAA802 /* Pods-BrodcastWebRTC.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B24B84624E2E644007A82F3 /* BExtensionUploadSetupUI */ = {
+			isa = PBXGroup;
+			children = (
+				9B24B84724E2E644007A82F3 /* BroadcastSetupViewController.swift */,
+				9B24B84824E2E644007A82F3 /* Info.plist */,
+			);
+			path = BExtensionUploadSetupUI;
+			sourceTree = "<group>";
+		};
+		9B24B84924E2E644007A82F3 /* BExtensionUpload */ = {
+			isa = PBXGroup;
+			children = (
+				9B24B84A24E2E644007A82F3 /* SampleHandler.swift */,
+				9B24B84B24E2E644007A82F3 /* Info.plist */,
+			);
+			path = BExtensionUpload;
+			sourceTree = "<group>";
+		};
+		9B24B85024E2E703007A82F3 /* ScreenRec */ = {
+			isa = PBXGroup;
+			children = (
+				9B24B85224E2E71E007A82F3 /* IntermediateViewController.swift */,
+				9B24B85124E2E71E007A82F3 /* IntermediateViewController.xib */,
+			);
+			path = ScreenRec;
 			sourceTree = "<group>";
 		};
 		A8E6E893B8D406E1C8F10B93 /* Frameworks */ = {
@@ -217,7 +257,7 @@
 			);
 			name = BrodcastWebRTC;
 			packageProductDependencies = (
-				2FB029152335104700795F4B /* SwiftPackageProductDependency */,
+				2FB029152335104700795F4B /* Starscream */,
 			);
 			productName = WebRTC;
 			productReference = 79262EE320B0D6F600D576C1 /* BrodcastWebRTC.app */;
@@ -249,7 +289,7 @@
 			);
 			mainGroup = 79262EDA20B0D6F500D576C1;
 			packageReferences = (
-				2FB029142335104700795F4B /* RemoteSwiftPackageReference */,
+				2FB029142335104700795F4B /* XCRemoteSwiftPackageReference "Starscream" */,
 			);
 			productRefGroup = 79262EE420B0D6F600D576C1 /* Products */;
 			projectDirPath = "";
@@ -266,13 +306,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				79262EEE20B0D6F800D576C1 /* Assets.xcassets in Resources */,
-				9BDC4FEC24E1798A00DE4541 /* BuildFile in Resources */,
-				9BDC4FE924E1797F00DE4541 /* BuildFile in Resources */,
+				9BDC4FEC24E1798A00DE4541 /* (null) in Resources */,
+				9BDC4FE924E1797F00DE4541 /* (null) in Resources */,
 				798FBA472200F681009F525E /* MainViewController.xib in Resources */,
 				79177CAA20B2283F00BCD399 /* VideoViewController.xib in Resources */,
-				9BDC4FEA24E1798300DE4541 /* BuildFile in Resources */,
+				9BDC4FEA24E1798300DE4541 /* (null) in Resources */,
 				798FBA492200F9A9009F525E /* LaunchScreen.storyboard in Resources */,
-				9BDC4FEB24E1798600DE4541 /* BuildFile in Resources */,
+				9B24B85324E2E71E007A82F3 /* IntermediateViewController.xib in Resources */,
+				9BDC4FEB24E1798600DE4541 /* (null) in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,12 +368,15 @@
 			files = (
 				79262EE920B0D6F600D576C1 /* MainViewController.swift in Sources */,
 				792198A222011A450051F03F /* Config.swift in Sources */,
+				9B24B84C24E2E644007A82F3 /* BroadcastSetupViewController.swift in Sources */,
 				79177CA820B2276400BCD399 /* VideoViewController.swift in Sources */,
 				79262EE720B0D6F600D576C1 /* AppDelegate.swift in Sources */,
+				9B24B84E24E2E644007A82F3 /* SampleHandler.swift in Sources */,
 				795A4A26221E081A00F8BB03 /* SessionDescription.swift in Sources */,
 				79177CA620B1F76E00BCD399 /* RTCStates.swift in Sources */,
 				79177C9920B0DF2700BCD399 /* SignalingClient.swift in Sources */,
 				795A4A2A221E0FB100F8BB03 /* Message.swift in Sources */,
+				9B24B85424E2E71E007A82F3 /* IntermediateViewController.swift in Sources */,
 				795A4A28221E0A1B00F8BB03 /* IceCandidate.swift in Sources */,
 				2F7EBC3622DCC6430015B46E /* WebSocketProvider.swift in Sources */,
 				79177C9720B0DE7A00BCD399 /* WebRTCClient.swift in Sources */,
@@ -531,7 +575,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2FB029142335104700795F4B /* RemoteSwiftPackageReference */ = {
+		2FB029142335104700795F4B /* XCRemoteSwiftPackageReference "Starscream" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:daltoniam/Starscream.git";
 			requirement = {
@@ -542,9 +586,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2FB029152335104700795F4B /* SwiftPackageProductDependency */ = {
+		2FB029152335104700795F4B /* Starscream */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2FB029142335104700795F4B /* RemoteSwiftPackageReference */;
+			package = 2FB029142335104700795F4B /* XCRemoteSwiftPackageReference "Starscream" */;
 			productName = Starscream;
 		};
 /* End XCSwiftPackageProductDependency section */
