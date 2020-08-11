@@ -2,10 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/mohamed.dennoun/Downloads/WebRTC-iOS-master/WebRTC-Demo-App/BrodcastWebRTC.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:../signaling/Swift/SignalingServer.xcodeproj">
+      location = "group:BrodcastWebRTC.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
