@@ -1,10 +1,4 @@
-//
-//  RTCConnectionState.swift
-//  WebRTC
-//
-//  Created by Stasel on 20/05/2018.
-//  Copyright © 2018 Stasel. All rights reserved.
-//
+
 
 import Foundation
 import WebRTC
