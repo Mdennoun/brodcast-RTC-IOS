@@ -108,7 +108,7 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "WebRTC Demo"
+        self.title = "Broadcast WebRTC"
         self.signalingConnected = false
         self.hasLocalSdp = false
         self.hasRemoteSdp = false
